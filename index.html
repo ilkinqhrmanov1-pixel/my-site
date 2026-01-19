@@ -1,0 +1,216 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>BioCNG Energy — Waste to Fuel</title>
+  <meta name="description" content="Organik atıklardan biyometan (Bio-CNG), elektrik ve organik gübre üreten döngüsel enerji girişimi." />
+  <style>
+    :root { --bg:#0b1220; --card:#111a2e; --text:#e8eefc; --muted:#b6c2e2; --accent:#7ee787; --line:rgba(255,255,255,.10); }
+    *{box-sizing:border-box}
+    body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Arial,sans-serif;background:radial-gradient(900px 500px at 20% 0%, #1a2a52 0%, var(--bg) 55%);color:var(--text)}
+    a{color:inherit}
+    .wrap{max-width:1000px;margin:0 auto;padding:28px 18px 70px}
+    header{display:flex;align-items:center;justify-content:space-between;gap:12px}
+    .brand{display:flex;align-items:center;gap:10px}
+    .logo{width:38px;height:38px;border-radius:12px;background:linear-gradient(135deg,#7ee787,#5db8ff);box-shadow:0 10px 30px rgba(93,184,255,.25)}
+    .brand b{letter-spacing:.2px}
+    .nav{display:flex;gap:14px;font-size:14px;color:var(--muted)}
+    .nav a{opacity:.9;text-decoration:none}
+    .nav a:hover{opacity:1;text-decoration:underline}
+    .hero{margin-top:36px;display:grid;grid-template-columns:1.2fr .8fr;gap:18px;align-items:stretch}
+    .card{background:rgba(17,26,46,.75);border:1px solid var(--line);border-radius:18px;padding:20px;backdrop-filter: blur(8px)}
+    h1{margin:0 0 10px;font-size:40px;line-height:1.1}
+    .sub{color:var(--muted);font-size:16px;line-height:1.55;margin:0 0 18px}
+    .cta{display:flex;flex-wrap:wrap;gap:10px;margin-top:8px}
+    .btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;padding:11px 14px;border-radius:12px;border:1px solid var(--line);text-decoration:none;font-weight:600}
+    .btn.primary{background:linear-gradient(135deg,#7ee787,#5db8ff);color:#081022;border:none}
+    .btn:hover{transform:translateY(-1px)}
+    .kpi{display:grid;grid-template-columns:repeat(2,1fr);gap:10px}
+    .kpi .box{border:1px solid var(--line);border-radius:14px;padding:12px}
+    .kpi .box b{display:block;font-size:18px}
+    .kpi .box span{color:var(--muted);font-size:12px}
+    .grid{margin-top:18px;display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+    .grid h3{margin:0 0 6px;font-size:16px}
+    .grid p{margin:0;color:var(--muted);font-size:14px;line-height:1.45}
+    .section{margin-top:18px}
+    .section h2{margin:0 0 10px;font-size:22px}
+    .list{margin:0;padding:0;list-style:none;display:grid;gap:10px}
+    .item{display:flex;gap:10px;align-items:flex-start}
+    .dot{width:10px;height:10px;border-radius:50%;background:var(--accent);margin-top:6px;flex:0 0 auto}
+    .muted{color:var(--muted)}
+    .two{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+    .footer{margin-top:22px;color:var(--muted);font-size:13px;border-top:1px solid var(--line);padding-top:18px;display:flex;flex-wrap:wrap;gap:10px;justify-content:space-between}
+    @media (max-width:900px){ .hero{grid-template-columns:1fr} .grid{grid-template-columns:1fr} .two{grid-template-columns:1fr} h1{font-size:34px} }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="brand">
+        <div class="logo" aria-hidden="true"></div>
+        <div>
+          <b>BioCNG Energy</b><br/>
+          <span class="muted" style="font-size:12px">Waste → Biomethane (Bio-CNG) • Power • Fertilizer</span>
+        </div>
+      </div>
+      <nav class="nav">
+        <a href="#problem">Problem</a>
+        <a href="#solution">Çözüm</a>
+        <a href="#products">Ürünler</a>
+        <a href="#needs">İhtiyaç</a>
+        <a href="#contact">İletişim</a>
+      </nav>
+    </header>
+
+    <section class="hero">
+      <div class="card">
+        <h1>Organik atığı<br/>yakıta dönüştürüyoruz.</h1>
+        <p class="sub">
+          Yemek atıkları, hayvansal gübre ve tarımsal artıklarından <b>biyogaz</b> üretip,
+          gazı arıtarak <b>%95+ biyometan</b> elde ediyor ve <b>Bio-CNG</b> olarak araç yakıtına dönüştürüyoruz.
+          Yan ürün olarak <b>organik gübre</b> üretiyoruz.
+        </p>
+        <div class="cta">
+          <a class="btn primary" href="#contact">Pitch Deck İste</a>
+          <a class="btn" href="#needs">Yatırım / Partnerlik</a>
+          <a class="btn" href="#products">Ürünler</a>
+        </div>
+
+        <div class="grid">
+          <div>
+            <h3>Kanıtlanmış model</h3>
+            <p>Türkiye’de kullanılan yaklaşımla Azerbaycan’da ölçeklenebilir kurulum.</p>
+          </div>
+          <div>
+            <h3>Çoklu gelir</h3>
+            <p>Bio-CNG + elektrik/ısı + organik gübre + atık kabul.</p>
+          </div>
+          <div>
+            <h3>Döngüsel ekonomi</h3>
+            <p>Atık maliyetini azaltır, enerji üretir, tarımı destekler.</p>
+          </div>
+        </div>
+      </div>
+
+      <aside class="card">
+        <h2 style="margin:0 0 10px">Kısa özet</h2>
+        <div class="kpi">
+          <div class="box">
+            <b>Bio-CNG</b>
+            <span>%95+ biyometan, 200–250 bar sıkıştırma</span>
+          </div>
+          <div class="box">
+            <b>Elektrik/Isı</b>
+            <span>CHP ile verimlilik, tesis içi kullanım veya satış</span>
+          </div>
+          <div class="box">
+            <b>Gübre</b>
+            <span>Katı + sıvı digestat, tarım için değerli</span>
+          </div>
+          <div class="box">
+            <b>Hedef</b>
+            <span>Azerbaycan’da pilot tesis → ölçekleme</span>
+          </div>
+        </div>
+        <p class="muted" style="margin:14px 0 0;font-size:13px">
+          Kurucu: İlkin Gahramanov — ADNSU, Proses Otomasyonu Müh., 4. sınıf.
+        </p>
+      </aside>
+    </section>
+
+    <section id="problem" class="section card">
+      <h2>Problem</h2>
+      <ul class="list">
+        <li class="item"><span class="dot"></span><span>Organik atıklar çoğu zaman değere dönüşmeden bertaraf ediliyor.</span></li>
+        <li class="item"><span class="dot"></span><span>Metan salımı çevresel yük oluşturuyor; enerji ise ithalat baskısı yaratıyor.</span></li>
+        <li class="item"><span class="dot"></span><span>Azerbaycan’da ticari ölçekte organik atık → Bio-CNG modeli çok sınırlı.</span></li>
+      </ul>
+    </section>
+
+    <section id="solution" class="section two">
+      <div class="card">
+        <h2>Çözüm</h2>
+        <p class="sub" style="margin:0">
+          Organik ve hayvansal atıkları anaerobik fermantasyonla biyogaza çeviriyoruz.
+          Gazı arıtıp biyometan elde ediyor, Bio-CNG olarak araç yakıtına sunuyoruz.
+        </p>
+      </div>
+      <div class="card">
+        <h2>Nasıl çalışır?</h2>
+        <ul class="list">
+          <li class="item"><span class="dot"></span><span>Atık toplama → ön işlem (ayırma/parçalama)</span></li>
+          <li class="item"><span class="dot"></span><span>Anaerobik sindirim → biyogaz + digestat</span></li>
+          <li class="item"><span class="dot"></span><span>Arıtma (CO₂/H₂S/nem) → %95+ biyometan</span></li>
+          <li class="item"><span class="dot"></span><span>Sıkıştırma (200–250 bar) → Bio-CNG</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="products" class="section card">
+      <h2>Ürünler</h2>
+      <div class="grid">
+        <div>
+          <h3>Bio-CNG</h3>
+          <p>Filolar, belediyeler, lojistik için temiz ve yerli yakıt.</p>
+        </div>
+        <div>
+          <h3>Elektrik & Isı</h3>
+          <p>CHP ile üretim; tesis içi kullanım veya satış modeli.</p>
+        </div>
+        <div>
+          <h3>Organik gübre</h3>
+          <p>Katı/sıvı digestat; tarım ve sera için değerli ürün.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="needs" class="section two">
+      <div class="card">
+        <h2>Temel teknik gereksinimler</h2>
+        <ul class="list">
+          <li class="item"><span class="dot"></span><span><b>Gaz arıtma:</b> CO₂, H₂S ve nem giderimi (biyometan %95+)</span></li>
+          <li class="item"><span class="dot"></span><span><b>Kompresör:</b> 200–250 bar Bio-CNG sıkıştırma</span></li>
+          <li class="item"><span class="dot"></span><span><b>Depolama:</b> yüksek basınçlı tanklar ve güvenlik standartları</span></li>
+          <li class="item"><span class="dot"></span><span><b>Otomasyon:</b> basınç/sıcaklık/saflık izleme ve emniyet</span></li>
+        </ul>
+      </div>
+      <div class="card">
+        <h2>Yatırım & partnerlik</h2>
+        <p class="sub" style="margin:0 0 10px">
+          Pilot tesis kurulumu ve Azerbaycan’da ilk referans proje için angel yatırımcılar
+          ve stratejik partnerler arıyoruz (ekipman, know-how, kurulum, işletme).
+        </p>
+        <ul class="list">
+          <li class="item"><span class="dot"></span><span><b>Hedef:</b> Pilot → ölçekleme → bölgesel genişleme</span></li>
+          <li class="item"><span class="dot"></span><span><b>Model:</b> JV / yatırım / teknoloji partnerliği</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="contact" class="section card">
+      <h2>İletişim</h2>
+      <p class="sub" style="margin:0 0 8px">
+        Pitch deck ve kısa finansal özet paylaşabilirim.
+      </p>
+      <p style="margin:0">
+        <b>İlkin Gahramanov</b><br/>
+        Email: <a href="mailto:YOUR_EMAIL_HERE">YOUR_EMAIL_HERE</a><br/>
+        LinkedIn: <a href="YOUR_LINKEDIN_HERE">YOUR_LINKEDIN_HERE</a>
+      </p>
+      <p class="muted" style="margin:10px 0 0;font-size:12px">
+        Not: Bu sayfa yatırımcı sunumu için özet landing page olarak tasarlanmıştır.
+      </p>
+    </section>
+
+    <div class="footer">
+      <span>© <span id="y"></span> BioCNG Energy</span>
+      <span class="muted">Azerbaycan’da organik atıktan Bio-CNG ve enerji üretimi</span>
+    </div>
+  </div>
+
+  <script>
+    document.getElementById("y").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
